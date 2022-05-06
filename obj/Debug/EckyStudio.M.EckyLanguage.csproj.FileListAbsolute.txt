@@ -1,0 +1,14 @@
+E:\EckyStudio\CloudSync\和彩云\EckyStudio\EckyStudio.M\EckyLanguage2.0\bin\Debug\el.dll
+E:\EckyStudio\CloudSync\和彩云\EckyStudio\EckyStudio.M\EckyLanguage2.0\bin\Debug\el.pdb
+E:\EckyStudio\CloudSync\和彩云\EckyStudio\EckyStudio.M\EckyLanguage2.0\obj\Debug\el.dll
+E:\EckyStudio\CloudSync\和彩云\EckyStudio\EckyStudio.M\EckyLanguage2.0\obj\Debug\el.pdb
+E:\EckyStudio\CloudSync\和彩云\EckyStudio\EckyStudio.M\EckyLanguage2.0\obj\Debug\EckyStudio.M.EckyLanguage.csprojResolveAssemblyReference.cache
+D:\云盘同步文件夹\EckyStudio\EckyStudio.M\EckyLanguage2.0\bin\Debug\el.dll
+D:\云盘同步文件夹\EckyStudio\EckyStudio.M\EckyLanguage2.0\bin\Debug\el.pdb
+D:\云盘同步文件夹\EckyStudio\EckyStudio.M\EckyLanguage2.0\obj\Debug\el.dll
+D:\云盘同步文件夹\EckyStudio\EckyStudio.M\EckyLanguage2.0\obj\Debug\el.pdb
+D:\云盘同步文件夹\EckyStudio\EckyStudio.M\EckyLanguage2.0\obj\Debug\EckyStudio.M.EckyLanguage.csprojResolveAssemblyReference.cache
+D:\Ecky\云盘同步文件夹\EckyStudio\EckyStudio.M\EckyLanguage2.0\bin\Debug\el.dll
+D:\Ecky\云盘同步文件夹\EckyStudio\EckyStudio.M\EckyLanguage2.0\bin\Debug\el.pdb
+D:\Ecky\云盘同步文件夹\EckyStudio\EckyStudio.M\EckyLanguage2.0\obj\Debug\el.dll
+D:\Ecky\云盘同步文件夹\EckyStudio\EckyStudio.M\EckyLanguage2.0\obj\Debug\el.pdb

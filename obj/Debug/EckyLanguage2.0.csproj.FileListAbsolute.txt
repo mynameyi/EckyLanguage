@@ -1,0 +1,19 @@
+F:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage2.0\bin\Debug\el.dll
+F:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage2.0\bin\Debug\el.pdb
+F:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage2.0\obj\Debug\ResolveAssemblyReference.cache
+F:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage2.0\obj\Debug\el.dll
+F:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage2.0\obj\Debug\el.pdb
+E:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage2.0\bin\Debug\el.dll
+E:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage2.0\bin\Debug\el.pdb
+E:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage2.0\obj\Debug\ResolveAssemblyReference.cache
+E:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage2.0\obj\Debug\el.dll
+E:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage2.0\obj\Debug\el.pdb
+E:\ecky\HY11-NB407-1_1.0.00\QRD\EckyLanguage2.0\bin\Debug\el.dll
+E:\ecky\HY11-NB407-1_1.0.00\QRD\EckyLanguage2.0\bin\Debug\el.pdb
+E:\ecky\HY11-NB407-1_1.0.00\QRD\EckyLanguage2.0\obj\Debug\ResolveAssemblyReference.cache
+E:\ecky\HY11-NB407-1_1.0.00\QRD\EckyLanguage2.0\obj\Debug\el.dll
+E:\ecky\HY11-NB407-1_1.0.00\QRD\EckyLanguage2.0\obj\Debug\el.pdb
+D:\产线工具\freetelfactory\EckyLanguage2.0\bin\Debug\el.dll
+D:\产线工具\freetelfactory\EckyLanguage2.0\bin\Debug\el.pdb
+D:\产线工具\freetelfactory\EckyLanguage2.0\obj\Debug\el.dll
+D:\产线工具\freetelfactory\EckyLanguage2.0\obj\Debug\el.pdb

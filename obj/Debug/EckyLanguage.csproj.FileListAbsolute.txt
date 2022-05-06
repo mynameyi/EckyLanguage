@@ -1,0 +1,5 @@
+F:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage\obj\Debug\ResolveAssemblyReference.cache
+F:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage\bin\Debug\el.dll
+F:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage\bin\Debug\el.pdb
+F:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage\obj\Debug\el.dll
+F:\Visual Studio 2008\Projects\TCPUniversalEngine\EckyLanguage\obj\Debug\el.pdb
