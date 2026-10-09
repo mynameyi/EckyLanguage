@@ -8,7 +8,7 @@ EckyLanguage 是一个以 C# 编写的轻量级通用脚本与数据格式类库
 
 ### 配置语言
 
-用于保存应用配置，格式与 INI 相似：按节组织键值对。
+配置语言采用接近 INI 的文本格式，用 `[节名]` 分组，并以 `键 = 值` 保存配置：
 
 ~~~ini
 [Device]
@@ -16,7 +16,37 @@ Port = COM1
 BaudRate = 115200
 ~~~
 
-源码中的 Config 类提供字符串配置读取和写入方法，例如 ReadString 和 WriteString。
+`EckyLanguage` 仓库中的 `Config` 提供底层配置文件读写能力：按节名、键名读取字符串，并可将新值写回对应配置项。需要直接控制读写时，可以调用 `ReadString`、`WriteString`。配套项目中的 `Config3_0` 也实现了相同用途的 INI 风格读写接口，配置绑定模型使用的是这一实现。
+
+#### 通过继承绑定配置项
+
+在配套的 [cn.eckystudio.m_dotNet](https://github.com/mynameyi/cn.eckystudio.m_dotNet) 项目中，`ConfigManagementModel` 提供了更方便的配置模型：定义一个继承它的类，在类中声明公开的 `ConfigItem` 字段；基类会在初始化时扫描这些字段，并把它们绑定到配置文件。`DataItem` 特性可以一次说明默认值、配置节和键名。这样，配置的声明集中在一个类里，增删或调整映射时不必在业务代码各处重复读写配置。
+
+~~~csharp
+using EckyStudio.M.BaseModel.DataManagementModel;
+
+public sealed class DeviceConfig : ConfigManagementModel
+{
+    public DeviceConfig(string fileName) : base(fileName) { }
+
+    // DataItem 参数依次为：默认值、节名、键名
+    [DataItem("COM1", "Device", "Port")]
+    public ConfigItem Port;
+
+    [DataItem("115200", "Device", "BaudRate")]
+    public ConfigItem BaudRate;
+}
+
+var config = new DeviceConfig("app.ini");
+string port = config.Port.StringValue;
+int baudRate = config.BaudRate.IntValue;
+
+// 默认 AutoFlushMode 下，Set 会立即写回配置文件
+config.Port.Set("COM2");
+config.Dispose();
+~~~
+
+未显式指定的节名使用 `General`，键名使用字段名，默认值为空字符串。`ConfigItem` 可通过 `StringValue`、`IntValue`、`BoolValue`、`FloatValue` 和 `DoubleValue` 读取常用类型；`Set` 用于更新配置值。此绑定模型针对公开的 `ConfigItem` 字段设计，并非任意 C# 属性或类型的自动序列化。配置管理辅助类位于配套项目中，当前仓库的 `Config` 本身仍是底层读写 API。
 
 ### 记录语言
 
